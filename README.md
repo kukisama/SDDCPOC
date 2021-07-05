@@ -2,7 +2,7 @@
 description: dsfsdf
 ---
 
-# Initial page
+# 初始页面
 
 ssddsffdf
 
