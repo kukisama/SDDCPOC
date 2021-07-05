@@ -1,4 +1,0 @@
-# book
-
-{ "language": "zh" }
-
