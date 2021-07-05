@@ -1,34 +1,33 @@
-# 目录
+# Table of contents
 
 * [简介](README.md)
-* 环境准备
-  * [最小硬件配置](HardwareRequirements.md)
-  * 嵌套虚拟化（Azure）部署注意事项
-  * 账号体系约定
-  * [IP地址和虚拟机名称约定](PandVMname.md)
-* POC架构设计
-* 部署
-  * Hyper-V
-  * Hyper-V交换机
-  * 第一台虚拟机
-  * Active Directory域控制器
-  * Active Directory证书服务器
-  * 组策略
-  * SQL Server 2016 SP2
-  * Virtual Machine Manager 2019
-  * Operations Manager 2019
-  * System Center补丁安装
-  * 网络控制器
-  * SLB Multiplexer (MUX)
-  * Gateway
-* 管理SDDC
-  * 软件使用
-  * 
-* 附录
-  * 推荐站点
-  * 推荐图书
-  * 高可用设计
-  * 知识点扩展
-* [作者简介](Author.md)
-* [许可](LICENSE.md)
+* [环境准备](huan-jing-zhun-bei/README.md)
+  * [最小硬件配置](huan-jing-zhun-bei/hardwarerequirements.md)
+  * [嵌套虚拟化（Azure）部署注意事项](huan-jing-zhun-bei/qian-tao-xu-ni-hua-azure-bu-shu-zhu-yi-shi-xiang.md)
+  * [账号体系约定](huan-jing-zhun-bei/zhang-hao-ti-xi-yue-ding.md)
+  * [IP地址和虚拟机名称约定](huan-jing-zhun-bei/ip-di-zhi-he-xu-ni-ji-ming-cheng-yue-ding.md)
+* [POC架构设计](poc-jia-gou-she-ji.md)
+* [部署](bu-shu/README.md)
+  * [Hyper-V](bu-shu/hyper-v.md)
+  * [Hyper-V交换机](bu-shu/hyperv-jiao-huan-ji.md)
+  * [第一台虚拟机](bu-shu/di-yi-tai-xu-ni-ji.md)
+  * [Active Directory域控制器](bu-shu/active-directory-yu-kong-zhi-qi.md)
+  * [Active Directory证书服务器](bu-shu/active-directory-zheng-shu-fu-wu-qi.md)
+  * [组策略](bu-shu/zu-ce-lve.md)
+  * [SQL Server 2016 SP2](bu-shu/sql-server-2016-sp2.md)
+  * [Virtual Machine Manager 2019](bu-shu/virtual-machine-manager-2019.md)
+  * [Operations Manager 2019](bu-shu/operations-manager-2019.md)
+  * [System Center补丁安装](bu-shu/system-center-bu-ding-an-zhuang.md)
+  * [网络控制器](bu-shu/wang-luo-kong-zhi-qi.md)
+  * [SLB Multiplexer \(MUX\)](bu-shu/slb-multiplexer-mux.md)
+  * [Gateway](bu-shu/gateway.md)
+* [管理SDDC](guan-li-sddc/README.md)
+  * [软件使用](guan-li-sddc/ruan-jian-shi-yong.md)
+* [附录](fu-lu/README.md)
+  * [推荐站点](fu-lu/tui-jian-zhan-dian.md)
+  * [推荐图书](fu-lu/tui-jian-tu-shu.md)
+  * [高可用设计](fu-lu/gao-ke-yong-she-ji.md)
+  * [知识点扩展](fu-lu/zhi-shi-dian-kuo-zhan.md)
+* [作者简介](author.md)
+* [许可](license.md)
 
