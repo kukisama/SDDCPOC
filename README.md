@@ -18,7 +18,7 @@ description: 为了实现SDDC的POC部署而定义的文档
 
 简言之，SDDC就是计算、存储、网络都使用软件定义的方式实现。以实现对硬件设备的解耦依赖。因此一个完整的SDDC方案，一定会包含计算、存储、网络的软件定义。
 
-![image](.gitbook\assets\20210705153125.png)
+![image](.gitbook/assets/20210705153125.png)
 
 ## 前置知识
 
