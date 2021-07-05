@@ -3,7 +3,7 @@
 * [简介](README.md)
 * [环境准备](environment/README.md)
   * [最小硬件配置](HardwareRequirements.md)
-  * [嵌套虚拟化（Azure）部署注意事项](NESTED.md)
+  * [嵌套虚拟化（Azure）注意事项](NESTED.md)
   * [账号体系约定](environment/zhang-hao-ti-xi-yue-ding.md)
   * [IP地址和虚拟机名称约定](IPandVMname.md)
   
