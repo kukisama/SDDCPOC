@@ -2,9 +2,10 @@
 
 * [简介](README.md)
 * 环境准备
-  * 最小硬件配置
+  * [最小硬件配置](HardwareRequirements.md)
   * 嵌套虚拟化（Azure）部署注意事项
   * 账号体系约定
+  * [IP地址和虚拟机名称约定](PandVMname.md)
 * POC架构设计
 * 部署
   * Hyper-V
