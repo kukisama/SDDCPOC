@@ -14,7 +14,7 @@ description: 为了实现SDDC的POC部署而定义的文档
 
 ## 许可
 
-[MIT许可](license.md)：请任意使用全部或部分，但请注明出处
+[MIT许可](LICENSE.md)：请任意使用全部或部分，但请注明出处
 
 ## 反馈
 
