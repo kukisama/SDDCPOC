@@ -1,17 +1,18 @@
 # Table of contents
 
 * [简介](README.md)
-* [环境准备](environment/README.md)
+* [环境准备](Environment/README.md)
   * [最小硬件配置](HardwareRequirements.md)
+  * [软件配置](SoftwareRequirements.md)
   * [嵌套虚拟化（Azure）注意事项](NESTED.md)
   * [账号体系约定](environment/zhang-hao-ti-xi-yue-ding.md)
   * [IP地址和虚拟机名称约定](IPandVMname.md)
   
 * [POC架构设计](POCArch.md)
 * [部署](Deploy/README.md)
-  * [Hyper-V](Deploy/hyper-v.md)
-  * [Hyper-V交换机](Deploy/hyperv-jiao-huan-ji.md)
-  * [第一台虚拟机](Deploy/di-yi-tai-xu-ni-ji.md)
+  * [启用Hyper-V角色](EnableHyper-V.md)
+  * [启用Hyper-V虚拟交换机](CreateVswitch.md)
+  * [第一台虚拟机](FirstVM.md)
   * [Active Directory域控制器](Deploy/active-directory-yu-kong-zhi-qi.md)
   * [Active Directory证书服务器](Deploy/active-directory-zheng-shu-fu-wu-qi.md)
   * [组策略](Deploy/zu-ce-lve.md)
@@ -29,6 +30,7 @@
   * [推荐图书](fu-lu/tui-jian-tu-shu.md)
   * [高可用设计](fu-lu/gao-ke-yong-she-ji.md)
   * [知识点扩展](fu-lu/zhi-shi-dian-kuo-zhan.md)
+  * [代码生成器](Fastcodegeneration.md)
 * [作者简介](author.md)
 * [许可](license.md)
 

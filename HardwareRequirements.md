@@ -15,14 +15,14 @@
 
 | 资源 | 数量 |
 | :--- | :--- |
-| 内存 | 64G |
-| 硬盘 | 1T SSD（建议NVME） |
+| 总内存 | 64G |
+| 总硬盘 | 1T SSD（建议NVME） |
 | CPU | 8代I7  及以上 |
 
 Azure上的实例以下供参考，可根据实际可用资源进行调整。
 
 | Azure资源 | 实例 |
 | :--- | :--- |
-| 计算 | D16s v4：16 vCPU，64 GB RAM，0 GB 临时存储空间, US$1.632/小时 |
+| 计算 | D16s v4：16 vCPU，64 GB RAM，0 GB 临时存储空间, US$1.632/小时 [Dv3 and Ev3 VM size](https://azure.microsoft.com/en-us/blog/nested-virtualization-in-azure/) |
 | 存储 | P30: 1024 GiB, 5000 IOPS, 200 MB/秒, US$135.170/月 （根据实际场景，可能需要多盘） |
 
