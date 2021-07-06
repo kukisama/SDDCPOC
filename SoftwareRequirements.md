@@ -19,7 +19,7 @@ MSDN和VLSC的介质名称和版本命名存在差异，请根据需要进行选
 | VMM       | mu_system_center_virtual_machine_manager_2019_x64_dvd_06c18108.iso |
 | SCOM      | mu_system_center_operations_manager_2019_x64_dvd_b3488f5c.iso |
 | SCO       | mu_system_center_orchestrator_2019_x64_dvd_98784e83.iso      |
-| ADK(免费) | [下载页面](https://docs.microsoft.com/en-us/windows-hardware/get-started/adk-install )的`2004版`[WinPE add-on for the Windows ADK](https://go.microsoft.com/fwlink/?linkid=2166133)和[Windows ADK](https://go.microsoft.com/fwlink/?linkid=2165884) 并参考[离线安装](https://docs.microsoft.com/en-us/windows-hardware/get-started/adk-offline-install)的方式，将数据保存到本地 |
+| ADK(免费) | [从下载页面](https://docs.microsoft.com/en-us/windows-hardware/get-started/adk-install )获取`2004版`[WinPE add-on for the Windows ADK](https://go.microsoft.com/fwlink/?linkid=2166133)和[Windows ADK](https://go.microsoft.com/fwlink/?linkid=2165884) 并参考[离线安装](https://docs.microsoft.com/en-us/windows-hardware/get-started/adk-offline-install)的方式，将数据保存到本地 |
 
 
 

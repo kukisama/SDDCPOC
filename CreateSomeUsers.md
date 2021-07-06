@@ -8,6 +8,8 @@
 - 创建用户
 - 将用户添加到特定安全组
 
+  
+
 ## 创建OU（Organizational Units）
 
 创建OU是为了便于组策略的发布，以及逻辑上的人为管理。OU的作用类似于磁盘系统中的`目录`，是一种逻辑容器。
@@ -42,7 +44,7 @@
 
 <img src=".gitbook/assets/20210706145420.png" alt="image" style="zoom:80%;" />
 
-## 将账户添加到特定组，升级为域管理员
+## 将账户添加到特定组，以及升级为域管理员
 
 双击创建的账号，在弹出的窗口中选择`隶属于`，点击`添加`。
 
@@ -56,5 +58,14 @@
 
 <img src=".gitbook/assets/20210706150350.png" alt="image" style="zoom:67%;" />
 
+
+
+![image](.gitbook/assets/20210706165149.png)
+
+<img src=".gitbook/assets/20210706164959.png" alt="image" style="zoom:67%;" />
+
+
+
 ## 检查
 
+在每一个阶段，都会有对应的回显，错误信息会比较明显的出现在当前窗口中。
