@@ -22,10 +22,9 @@
   * [SQL Server](SQLServer.md)
   * [Virtual Machine Manager](SCVMM.md)
   * [Virtual Machine Manager UR补丁](VMMUR.md)
-  
+  * [第一台计算节点](FirstComp.md)
   * [Active Directory证书服务器](Deploy/active-directory-zheng-shu-fu-wu-qi.md)
   * [组策略](Deploy/zu-ce-lve.md)
-  
   * [Operations Manager](Deploy/operations-manager-2019.md)
   * [System Center补丁安装](Deploy/system-center-bu-ding-an-zhuang.md)
   * [网络控制器](Deploy/wang-luo-kong-zhi-qi.md)

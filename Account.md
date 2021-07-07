@@ -4,15 +4,16 @@
 
 账号存在嵌套关系，请`仔细检查`需求进行配置。
 
-| 名称      | 所在ou | 功能           | 隶属安全组                    | 创建时间          |
-| --------- | ------ | -------------- | ----------------------------- | ----------------- |
-| admin     | /sddc  | 域管理员       | domain admins                 | 完成AD后创建      |
-| sqladmins | /sddc  | 数据库管理员组 | POC-SQL01本地管理员           | 完成AD后创建      |
-| sqladmin  | /sddc  | 数据库管理员   | sqladmins                     | 完成AD后创建      |
-| sqlsvc    | /sddc  | 数据库服务账号 | sqladmins                     | 完成AD后创建      |
-| vmmadmins | /sddc  | vmm管理员组    | POC-VMM01本地管理员/sqladmins | 完成SQL配置后创建 |
-| vmmadmin  | /sddc  | vmm管理员      | vmmadmins                     | 完成SQL配置后创建 |
-| vmmsvc    | /sddc  | vmm服务账号    | vmmadmins                     | 完成SQL配置后创建 |
+| 名称          | 所在ou | 功能                 | 隶属安全组                    | 创建时间                |
+| ------------- | ------ | -------------------- | ----------------------------- | ----------------------- |
+| admin         | /sddc  | 域管理员             | domain admins                 | 完成AD后创建            |
+| sqladmins     | /sddc  | 数据库管理员组       | POC-SQL01本地管理员           | 完成AD后创建            |
+| sqladmin      | /sddc  | 数据库管理员         | sqladmins                     | 完成AD后创建            |
+| sqlsvc        | /sddc  | 数据库服务账号       | sqladmins                     | 完成AD后创建            |
+| vmmadmins     | /sddc  | vmm管理员组          | POC-VMM01本地管理员/sqladmins | 完成SQL配置后创建       |
+| vmmadmin      | /sddc  | vmm管理员            | vmmadmins                     | 完成SQL配置后创建       |
+| vmmsvc        | /sddc  | vmm服务账号          | vmmadmins                     | 完成SQL配置后创建       |
+| computeradmin | /sddc  | 计算节点的本地管理员 | POC-COMP01本地管理员          | 完成计算节点1部署后创建 |
 
 
 

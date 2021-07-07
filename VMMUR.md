@@ -27,3 +27,39 @@ kb4599688_AdminConsole_amd64.msp
 ## 安装
 
 需要使用`管理员的PowerShell`来执行升级补丁。
+
+将补丁拷贝到`特定目录`，通过如下方式`运行补丁`
+
+```powershell
+cd c:\
+.\kb4599687_vmmserver_amd64.msp
+```
+
+
+
+<img src=".gitbook/assets/20210707120927.png" alt="image" style="zoom:67%;" />
+
+期间会提示VMM的Agent阻止，直接点击`OK`。
+
+
+
+<img src=".gitbook/assets/20210707121010.png" alt="image" style="zoom: 80%;" />
+
+耐心等待安装完成，补丁程序会自动消失。
+
+继续运行控制台的补丁
+
+```powershell
+cd c:\
+.\kb4599688_AdminConsole_amd64.msp
+```
+
+
+
+![image](.gitbook/assets/20210707121226.png)
+
+## 检查
+
+打开`文件资源管理器`，于地址栏输入`控制面板\程序\程序和功能`，点击左侧的`查看已安装的更新`，正常情况应该出现如下所示的内容，包含`两条`SCVMM UR3的条目。
+
+![image](.gitbook/assets/20210707133545.png)
