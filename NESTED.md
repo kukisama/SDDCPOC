@@ -23,4 +23,7 @@ Set-VMProcessor -VMName <VMName> -ExposeVirtualizationExtensions $true
 
 嵌套虚拟化影响性能，因此在环境中务必使用SSD/NVME。
 
-请注意，这完全是基于`成本`考虑的技术。
+> 注意：这是基于`成本`考虑的技术。
+>
+> 注意：如果在Azure中部署，请定期检查Azure的计费（计算、存储）情况，以免费用超出预期。
+

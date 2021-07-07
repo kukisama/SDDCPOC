@@ -21,5 +21,7 @@ MSDN和VLSC的介质名称和版本命名存在差异，请根据需要进行选
 | SCO       | mu_system_center_orchestrator_2019_x64_dvd_98784e83.iso      |
 | ADK(免费) | [从下载页面](https://docs.microsoft.com/en-us/windows-hardware/get-started/adk-install )获取`2004版`[WinPE add-on for the Windows ADK](https://go.microsoft.com/fwlink/?linkid=2166133)和[Windows ADK](https://go.microsoft.com/fwlink/?linkid=2165884) 并参考[离线安装](https://docs.microsoft.com/en-us/windows-hardware/get-started/adk-offline-install)的方式，将数据保存到本地 |
 
+## 介质存储
 
+由于介质数据量都很大，为了便于`重复利用`，请妥善保存（Azure上请自建blob存储单独存放）
 

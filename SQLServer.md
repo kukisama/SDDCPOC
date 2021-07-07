@@ -64,3 +64,8 @@
 
 最后，需要在磁盘管理器中，将SQL的ISO`弹出`。
 
+## 补丁
+
+可前往如下链接，下载最新补丁
+
+[SQL补丁， Cumulative Update 17 for SQL Server 2016 SP2](https://support.microsoft.com/en-us/topic/kb5001092-cumulative-update-17-for-sql-server-2016-sp2-5876a4d6-59ac-484a-93dc-4be456cd87d1)  KB5001092
