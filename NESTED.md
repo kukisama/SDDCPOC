@@ -1,6 +1,7 @@
 # Hyper-V的嵌套虚拟化
 
-由于SDDC的部署，对硬件的需求很大，因此在POC阶段，基于`成本`考虑，建议使用Hyper-V的嵌套虚拟化
+由于SDDC的部署，对硬件的需求很大，因此在POC阶段，基于`成本`考虑，建议使用Hyper-V的嵌套虚拟化。
+> 在本POC环境中，`必须使用`嵌套虚拟化技术。
 
 该功能可以在Windows Server 2019和Azure的Windows Server 2019上实施。
 
