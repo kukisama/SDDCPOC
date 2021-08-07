@@ -6,8 +6,8 @@
   * [最小硬件配置](HardwareRequirements.md)
   * [软件配置](SoftwareRequirements.md)
   * [嵌套虚拟化（Azure）注意事项](NESTED.md)
-  * [计算机加域](AddComputer.md)
   * [账号体系约定](Account.md)
+  * [计算机加域](AddComputer.md)
   * [IP地址和虚拟机名称约定](IPandVMname.md)
   
 * [POC架构设计](POCArch.md)
