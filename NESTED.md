@@ -28,3 +28,6 @@ Set-VMProcessor -VMName <VMName> -ExposeVirtualizationExtensions $true
 >
 > 注意：如果在Azure中部署，请定期检查Azure的计费（计算、存储）情况，以免费用超出预期。
 
+## 课后作业
+
+- 在Azure中部署嵌套虚拟化，哪一块的费用是最不好预估，容易飘忽不定的，并说明理由。

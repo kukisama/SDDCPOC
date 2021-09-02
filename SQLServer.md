@@ -69,3 +69,8 @@
 可前往如下链接，下载最新补丁
 
 [SQL补丁， Cumulative Update 17 for SQL Server 2016 SP2](https://support.microsoft.com/en-us/topic/kb5001092-cumulative-update-17-for-sql-server-2016-sp2-5876a4d6-59ac-484a-93dc-4be456cd87d1)  KB5001092
+
+## 课后习题
+
+- 如何查看当前SQL的版本号
+- 如何备份当前数据库

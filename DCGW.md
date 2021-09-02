@@ -87,3 +87,7 @@ icm -VMName $vmname -Credential $credgw{
 脚本不报错即可，也可以登录到目标虚拟机中，检查网卡信息，看是否符合预期。
 
 ![image](.gitbook/assets/20210707174221.png)
+
+## 课后系统
+
+- 章节提到了BGP，简单了解一下，什么是BGP协议。

@@ -59,3 +59,6 @@ Active Directory是一个重要的角色，牵扯到的应用过多，此处不�
 
 
 
+## 课后系统
+
+- 搜索或者尝试一下，关闭Active Directory操作系统的IPV6功能，会有什么问题
