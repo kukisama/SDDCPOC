@@ -2,6 +2,7 @@
 
 * [简介](README.md)
   * [术语表](glossary.md)
+  * [特别感谢 GitHub Copilot](copilot-thanks.md)
 
 * [环境准备](environment/README.md)
   * [最小硬件配置](HardwareRequirements.md)

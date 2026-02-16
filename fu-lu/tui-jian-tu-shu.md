@@ -2,6 +2,12 @@
 
 以下图书覆盖了SDDC涉及的核心技术领域，推荐按照个人兴趣和学习需求选择阅读。
 
+## 微软私有云
+
+| 图书 | 作者 | 说明 |
+|------|------|------|
+| [《微软System Center 2012 R2私有云部署实战》](https://www.epubit.com/bookDetails?id=N11979) | 九叔 | 国内第一本系统全面讲解微软私有云构建的技术书籍，涵盖Hyper-V虚拟化、SCVMM/SCCM/SCOM部署与运维，是学习本POC项目的最佳前置读物 |
+
 ## Windows Server 与 Hyper-V
 
 | 图书 | 作者 | 说明 |
