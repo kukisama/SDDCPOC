@@ -1,46 +1,69 @@
 # Table of contents
 
 * [简介](README.md)
+  * [术语表](glossary.md)
 
-* [环境准备](Environment/README.md)
+* [环境准备](environment/README.md)
   * [最小硬件配置](HardwareRequirements.md)
   * [软件配置](SoftwareRequirements.md)
   * [嵌套虚拟化（Azure）注意事项](NESTED.md)
   * [账号体系约定](Account.md)
   * [计算机加域](AddComputer.md)
   * [IP地址和虚拟机名称约定](IPandVMname.md)
-  
-* [POC架构设计](POCArch.md)
+  * [网络规划详解](NetworkPlanning.md)
 
-* [部署](Deploy/README.md)
+* [POC架构设计](POCArch.md)
+  * [部署路线图](DeployRoadmap.md)
+
+* [部署 — 基础设施](Deploy/README.md)
   * [启用Hyper-V角色](EnableHyper-V.md)
   * [启用Hyper-V虚拟交换机](CreateVswitch.md)
   * [第一台虚拟机](FirstVM.md)
   * [创建虚拟机模板](CreateTemplate.md)
   * [Active Directory域控制器](ADDS.md)
+  * [DNS服务配置](Deploy/dns-config.md)
   * [创建额外的AD账号](CreateSomeUsers.md)
   * [SQL Server](SQLServer.md)
   * [Virtual Machine Manager](SCVMM.md)
   * [Virtual Machine Manager UR补丁](VMMUR.md)
   * [第一台计算节点](FirstComp.md)
+  * [第二台计算节点](SecondComp.md)
   * [组策略](GPMC.md)
+
+* [部署 — SDN](Deploy/sdn-README.md)
   * [部署RRAS的软路由](DCGW.md)
   * [证书服务器](CA1.md)
+  * [证书模板与申请](Deploy/cert-template.md)
+  * [VMM逻辑网络配置](Deploy/vmm-logical-network.md)
   * [网络控制器](Deploy/wang-luo-kong-zhi-qi.md)
   * [SLB Multiplexer \(MUX\)](Deploy/slb-multiplexer-mux.md)
   * [Gateway](Deploy/gateway.md)
+
+* [部署 — 监控与工具](Deploy/monitoring-README.md)
   * [Operations Manager](Deploy/operations-manager-2019.md)
-  
+  * [Operations Manager UR补丁](Deploy/scom-ur.md)
+  * [Windows Admin Center](Deploy/windows-admin-center.md)
+
+* [验证与测试](Deploy/validation-README.md)
+  * [SDN功能验证](Deploy/sdn-validation.md)
+  * [创建租户虚拟网络](Deploy/tenant-virtual-network.md)
+  * [SLB负载均衡测试](Deploy/slb-test.md)
+
 * [管理SDDC](guan-li-sddc/README.md)
   * [软件使用](guan-li-sddc/ruan-jian-shi-yong.md)
-  
+  * [VMM日常管理](guan-li-sddc/vmm-daily-ops.md)
+  * [SDN网络管理](guan-li-sddc/sdn-network-ops.md)
+  * [监控与告警](guan-li-sddc/monitoring.md)
+  * [常见问题排查](guan-li-sddc/troubleshooting.md)
+
 * [附录](fu-lu/README.md)
   * [推荐站点](fu-lu/tui-jian-zhan-dian.md)
   * [推荐图书](fu-lu/tui-jian-tu-shu.md)
   * [高可用设计](fu-lu/gao-ke-yong-she-ji.md)
   * [知识点扩展](fu-lu/zhi-shi-dian-kuo-zhan.md)
   * [代码生成器](Fastcodegeneration.md)
-  
+  * [PowerShell速查手册](fu-lu/powershell-cheatsheet.md)
+
 * [作者简介](author.md)
 
 * [许可](license.md)
